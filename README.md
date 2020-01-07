@@ -255,7 +255,7 @@ title   Arch Linux
 linux   /vmlinuz-linux
 initrd  /intel-ucode.img
 initrd  /initramfs-linux.img
-options root=UUID=90a8f636-81d9-4433-af65-777f43a49be7
+options root=UUID=90a8f636-81d9-4433-af65-777f43a49be7 rw
 ```
 
 
