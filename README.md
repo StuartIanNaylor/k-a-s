@@ -280,6 +280,9 @@ reboot
 
 Now hopefully we should have a working base system for Arch 
 
+You can read nextstep.md to find out how to install aur packages via yay and the kodi-standalone-service from aur.
+
+
 
 
 
