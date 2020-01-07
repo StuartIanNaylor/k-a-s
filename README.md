@@ -282,6 +282,9 @@ Now hopefully we should have a working base system for Arch
 
 You can read nextstep.md to find out how to install aur packages via yay and the kodi-standalone-service from aur.
 
+If the above was just too much hassle you can download a finished image from my onedrive that is ready and primed with yay.
+
+https://1drv.ms/u/s!AocmAh35i26QixkwSYxX7MaHnep5?e=4dFbra
 
 
 
