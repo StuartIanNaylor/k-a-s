@@ -258,6 +258,28 @@ initrd  /initramfs-linux.img
 options root=UUID=90a8f636-81d9-4433-af65-777f43a49be7 rw
 ```
 
+Make sure the services start on boot and create temp admin user for sudo
+```
+systemctl enable dhcpcd.service
+systemctl enable sshd
+useradd -G wheel admin
+```
+enter password and confirm
+
+```
+visudo
+```
+Uncomment this line
+```
+%wheel      ALL=(ALL) ALL
+```
+So that wheel members can use sudo
+```
+reboot
+```
+
+Now hopefully we should have a working base system for Arch 
+
 
 
 
