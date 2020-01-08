@@ -91,11 +91,13 @@ fdisk /dev/sda
 ```
 
 Press g and eneter to create a new GPT disklabel.
+
 Press n to create the first partition.
 Just hit enter to accept the default of 1
 Same again for the start sector hit enter
 +512M and eneter will create a small first partition for the EFI partition
 If you get a prompt to remove previous signatures click yes.
+
 Press n again to create the swap partition
 Just hit enter to accept the default of 2
 Same again for the start sector hit enter
@@ -103,6 +105,7 @@ Same again for the start sector hit enter
 Usually Swap is set to 1x-2x available memory but with Kodi it is very unlikely it will even come close to needing swap.
 So you can omit swap if you wish.
 Again if you get a prompt to remove previous signatures click yes.
+
 Press n again to create the system root partition.
 Just hit enter to accept the default of 3
 Same again for the start sector hit enter
@@ -110,7 +113,9 @@ Also hit enter again as we will use the whole disk but generally the install wil
 
 Now we will set the partition types.
 Press t and enter, 1 and enter for 1st partition, 1 and enter for EFI system.
+
 Press t and eneter, 2 and enter for 2nd partition, 19 and enter for linux swap if used.
+
 press t and enter 3 and eneter for 3rd partition, 24 and enter for Linux root x86_64
 
 press w and enter and fdisk will write new partitions and exit.
