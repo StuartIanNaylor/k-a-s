@@ -4,7 +4,7 @@ Here we will install aur packages via yay and the kodi-standalone-service from a
 login as admin
 ```
 sudo pacman -S git
-git clone https://github.com/Jguer/yay.git
+git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 ```
