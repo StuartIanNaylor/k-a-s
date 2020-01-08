@@ -268,6 +268,7 @@ Make sure the services start on boot and create temp admin user for sudo
 systemctl enable dhcpcd.service
 systemctl enable sshd
 useradd -G wheel admin
+passwd admin
 ```
 enter password and confirm
 
