@@ -208,7 +208,9 @@ Delete to remove exit button as that will just exit kodi and hang in X11
 						<visible>System.ShowExitButton</visible>
 					</item>
 
-
+wget https://github.com/StuartIanNaylor/k-a-s/blob/master/plugin.program.chrome.launcher-master.zip?raw=true
 ```
-
+Install from zip the chrome launcher enable the tvheadend addon and configure.
+https://tvheadend.org/ if you require install and setup config
+http://hostname:9981/ the admin setup should be found here
 
