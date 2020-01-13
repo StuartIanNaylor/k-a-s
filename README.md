@@ -1,5 +1,15 @@
 # karch
-Kodi standalone on Arch Linux with Chrome browser and Droidmote remote control.
+Kodi standalone on Arch Linux with Chrome browser and Droidmote remote control & TVheadend.
+
+If you can not be bothered with all the below and the contents of next steps then there is an image I will share on one drive.
+If it ever gets out of date on updates give me a shout and will create new.
+Pacman -Syu should work well for a while.
+
+I am not all that sure how good Yay is on updates maybe might have to see and should of installed
+
+https://1drv.ms/u/s!AocmAh35i26Qixo3FO3N8blzSWEA?e=aM5s0q
+
+Use etcher, rufus or DD to burn image
 
 There is a great youtube vid on creating a new UEFI install of Arch Linux that needs a look over as opposed to older guides as its true recently some of the base packages have changed and packages once included are now found elsewhere.
 You can view it here https://www.youtube.com/watch?v=-zb8220uUiA
