@@ -1,4 +1,4 @@
-# karch
+# k-a-s
 Kodi standalone on Arch Linux with Chrome browser and Droidmote remote control & TVheadend.
 
 If you can not be bothered with all the below and the contents of next steps then there is an image I will share on one drive.
